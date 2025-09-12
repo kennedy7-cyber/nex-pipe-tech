@@ -1,0 +1,13 @@
+#homepageCarousel.carousel-item {
+  height: 600px;
+  overflow: hidden;
+  width: 100%;
+}
+
+#homepageCarousel.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
