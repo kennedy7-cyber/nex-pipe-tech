@@ -2,12 +2,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
-
+import { gatersimg, heroimg, pipework, pipework2 } from "../assets";
 const services = [
   {
     id: "leak-repair",
     title: "Leak Detection & Repair",
-    img: "https://media.istockphoto.com/id/2158091005/photo/damage-assessment.webp?a=1&b=1&s=612x612&w=0&k=20&c=59u7jPd23r15wWhxppMWdY8tW_U7c6KEniLypJ63uiI=",
+    img: heroimg,
+    // img: "https://media.istockphoto.com/id/2158091005/photo/damage-assessment.webp?a=1&b=1&s=612x612&w=0&k=20&c=59u7jPd23r15wWhxppMWdY8tW_U7c6KEniLypJ63uiI=",
     desc: "Fast, non-invasive detection and permanent fixes for pipe and fixture leaks in homes and businesses.",
   },
   {
@@ -27,7 +28,8 @@ const services = [
 const carouselSlides = [
   {
     id: 1,
-    img: "https://media.istockphoto.com/id/503325376/photo/plumber-on-the-kitchen.jpg?s=612x612&w=0&k=20&c=NXdkmsOlPbG4wJo3T-LWU5Dijqk8wYXFHqr1wIdJkhM=",
+    // img: "https://media.istockphoto.com/id/503325376/photo/plumber-on-the-kitchen.jpg?s=612x612&w=0&k=20&c=NXdkmsOlPbG4wJo3T-LWU5Dijqk8wYXFHqr1wIdJkhM=",
+    img: heroimg,
     title: "Welcome to Nex Pipe Tech",
     text: "Professional plumbing services you can rely on.",
     btnText: "Explore Services",
@@ -36,7 +38,8 @@ const carouselSlides = [
   },
   {
     id: 2,
-    img: "https://images.unsplash.com/photo-1596110291127-ae31d996aec0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
+    // img: "https://images.unspla/sh.com/photo-1596110291127-ae31d996aec0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
+    img: gatersimg,
     title: "Expert Installations",
     text: "From small repairs to large projects.",
     btnText: "Contact Us",
@@ -45,7 +48,9 @@ const carouselSlides = [
   },
   {
     id: 3,
-    img: "https://media.istockphoto.com/id/2188915034/photo/electrical-and-plumbing-washing-machine-connections-indoor.jpg?s=612x612&w=0&k=20&c=S7MqWu4d8ryBZJtE-wSpuSY9fX9x-6F8LrdS6mlNxxc=",
+    // img: "https://media.istockphoto.com/id/2188915034/photo/electrical-and-plumbing-washing-machine-connections-indoor.jpg?s=612x612&w=0&k=20&c=S7MqWu4d8ryBZJtE-wSpuSY9fX9x-6F8LrdS6mlNxxc=",
+    // img: heroimg,
+    img: pipework2,
     title: "Reliable Maintenance",
     text: "Ensuring your water systems run smoothly.",
     btnText: "Learn More",
