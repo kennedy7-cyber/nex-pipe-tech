@@ -65,6 +65,16 @@ const Navbar = () => (
               Blogs
             </NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink
+              className={({ isActive }) =>
+                `nav-link ${isActive ? "fw-bold text-warning" : "text-white"}`
+              }
+              to="/gallery-in"
+            >
+              Gallery
+            </NavLink>
+          </li>
         </ul>
 
         <ul className="navbar-nav">
