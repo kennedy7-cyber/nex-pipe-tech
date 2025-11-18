@@ -10,6 +10,7 @@ import Contact from './pages/Contact';
 import Gallery from './pages/Gallery';
 import "./index.css";
 import Homepage from './pages/Homepage';
+import FAQ from './pages/FAQ';
 
 
 
@@ -28,6 +29,7 @@ const router = createBrowserRouter([
       { path: "/services", element: <Services /> },
       { path: "/contact", element: <Contact /> },
       { path: "/gallery-in", element: <Gallery /> },
+      { path: "/FAQ-IN", element: <FAQ /> },
 
     ],
   },
