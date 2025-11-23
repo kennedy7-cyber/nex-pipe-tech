@@ -47,8 +47,8 @@ export default function FaqPage() {
     };
 
     return (
-        <div className="min-h-screen bg-gray-100 py-10 px-5 md:px-20">
-            <h1 className="text-4xl font-bold text-center text-blue-700 mb-10">Frequently Asked Questions</h1>
+        <div className="min-h-screen bg-gray-100 py- md:px-20">
+            <h1 className="text-4xl font-normal botext-center text-blue-700 mb-6">Frequently Asked Questions</h1>
 
             <div className="max-w-3xl mx-auto space-y-4">
                 {faqs.map((faq, index) => (
