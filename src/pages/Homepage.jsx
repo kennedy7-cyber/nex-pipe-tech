@@ -2,19 +2,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import { gatersimg, heroimg, pipework, pipework2 } from "../assets";
+import { gatersimg, install1, pipework2, tankinstal1 } from "../assets";
 const services = [
   {
     id: "leak-repair",
     title: "Leak Detection & Repair",
-    img: heroimg,
+    img: tankinstal1,
     // img: "https://media.istockphoto.com/id/2158091005/photo/damage-assessment.webp?a=1&b=1&s=612x612&w=0&k=20&c=59u7jPd23r15wWhxppMWdY8tW_U7c6KEniLypJ63uiI=",
     desc: "Fast, non-invasive detection and permanent fixes for pipe and fixture leaks in homes and businesses.",
   },
   {
     id: "installation",
     title: "New Installations",
-    img: "https://media.istockphoto.com/id/913023300/photo/industrial-water-pipeline.webp?a=1&b=1&s=612x612&w=0&k=20&c=Qony3TWuCCD1VvWuppAOsl8z2oKZJhF7kq5YuzSrrC8=",
+    img: install1,
     desc: "Professional installation of piping, water heaters, fixtures, and smart water systems—built to code.",
   },
   {
@@ -29,7 +29,7 @@ const carouselSlides = [
   {
     id: 1,
     // img: "https://media.istockphoto.com/id/503325376/photo/plumber-on-the-kitchen.jpg?s=612x612&w=0&k=20&c=NXdkmsOlPbG4wJo3T-LWU5Dijqk8wYXFHqr1wIdJkhM=",
-    img: heroimg,
+    img: tankinstal1,
     title: "Welcome to Nex Pipe Tech",
     text: "Professional plumbing services you can rely on.",
     btnText: "Explore Services",

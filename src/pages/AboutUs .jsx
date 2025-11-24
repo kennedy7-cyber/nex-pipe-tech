@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { inst50 } from "../assets";
 import {
   Container,
   Row,
@@ -23,7 +24,7 @@ export default function AboutPage() {
       title: "General Plumbing",
       short: "Repairs, installations and preventative maintenance.",
       long: "Full-service plumbing for residential and commercial properties: leak repairs, faucet and fixture replacement, pipe repair, and preventive maintenance plans tailored to your building.",
-      img: "https://media.istockphoto.com/id/530838493/photo/plumbing-tools-on-the-kitchen.webp?a=1&b=1&s=612x612&w=0&k=20&c=yibjPS8Dc5vioaOdE4utcAOynCImHEmrea4qIWHiDYs=",
+      img: inst50
     },
     {
       id: 2,

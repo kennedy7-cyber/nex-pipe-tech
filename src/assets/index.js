@@ -1,4 +1,4 @@
-import heroimg from './1.jpeg'
+import tankinstal1 from './tank1.jpeg'
 import gatersimg from './gaters.jpeg'
 import pipework from './barthroom .jpeg'
 import pipework2 from './barthroom2.jpeg'
@@ -27,9 +27,11 @@ import pipeinst20 from './pic7.jpeg'
 import pipeinst21 from './pic6.jpeg'
 import pipeinst22 from './pic5.jpeg'
 import pipeinst23 from './rain water.jpeg'
-import inst1 from'./tank1.jpeg'
+import inst1 from './tank1.jpeg'
 import inst2 from './tank2.jpeg'
 import inst3 from './tank3.jpeg'
+import inst50 from './irrigate1.jpeg'
+import install1 from './barthroom1.jpeg'
 
 
 
@@ -39,7 +41,7 @@ import inst3 from './tank3.jpeg'
 
 
 export {
-    heroimg,
+    tankinstal1,
     gatersimg,
     pipework,
     pipework2,
@@ -70,7 +72,9 @@ export {
     pipeinst23,
     inst1,
     inst2,
-    inst3
+    inst3,
+    inst50,
+    install1,
 
 
 
