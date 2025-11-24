@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { pipeinst, pipeinst1, pipeinst10, pipeinst11, pipeinst12, pipeinst13, pipeinst14, pipeinst15, pipeinst16, pipeinst17, pipeinst18, pipeinst19, pipeinst2, pipeinst20, pipeinst21, pipeinst22, pipeinst23, pipeinst3, pipeinst4, pipeinst5, pipeinst6, pipeinst7, pipeinst8, pipeinst9, pipework2, pipework3 } from "../assets";
+import { inst1, inst2, inst3, pipeinst, pipeinst1, pipeinst10, pipeinst11, pipeinst12, pipeinst13, pipeinst14, pipeinst15, pipeinst16, pipeinst17, pipeinst18, pipeinst19, pipeinst2, pipeinst20, pipeinst21, pipeinst22, pipeinst23, pipeinst3, pipeinst4, pipeinst5, pipeinst6, pipeinst7, pipeinst8, pipeinst9, pipework2, pipework3 } from "../assets";
 
 // ✅ Properly import all images from assets
 // import pipework2 from "../assets/pipework2.jpeg";
@@ -18,31 +18,35 @@ const GALLERY_ITEMS = [
     { id: 1, src: pipework3, title: "Pipe Installation", tag: "Installation" },
     { id: 2, src: pipework2, title: "Bathroom Repair", tag: "Repair" },
 
-    { id: 3, src: pipeinst, title: "Drain Cleaning", tag: "Maintenance" },
-    { id: 4, src: pipeinst1, title: "Water Heater Setup", tag: "Installation" },
-    { id: 5, src: pipeinst2, title: "Leak Detection", tag: "Inspection" },
-    { id: 6, src: pipeinst3, title: "Sewer Line Work", tag: "Maintenance" },
-    { id: 6, src: pipeinst4, title: "Sewer Line Work", tag: "Maintenance" },
-    { id: 6, src: pipeinst5, title: "Sewer Line Work", tag: "Maintenance" },
-    { id: 6, src: pipeinst6, title: "Sewer Line Work", tag: "Maintenance" },
-    { id: 6, src: pipeinst7, title: "Sewer Line Work", tag: "Maintenance" },
-    { id: 6, src: pipeinst8, title: "Sewer Line Work", tag: "Maintenance" },
-    { id: 6, src: pipeinst9, title: "Sewer Line Work", tag: "Maintenance" },
-    { id: 6, src: pipeinst10, title: "Sewer Line Work", tag: "Maintenance" },
-    { id: 6, src: pipeinst11, title: "Sewer Line Work", tag: "Maintenance" },
-    { id: 6, src: pipeinst12, title: "Sewer Line Work", tag: "Maintenance" },
-    { id: 6, src: pipeinst13, title: "Sewer Line Work", tag: "Maintenance" },
-    { id: 6, src: pipeinst14, title: "Sewer Line Work", tag: "Maintenance" },
-    { id: 6, src: pipeinst15, title: "Sewer Line Work", tag: "Maintenance" },
-    { id: 6, src: pipeinst16, title: "Sewer Line Work", tag: "Maintenance" },
-    { id: 6, src: pipeinst17, title: "Sewer Line Work", tag: "Maintenance" },
-    { id: 6, src: pipeinst18, title: "Sewer Line Work", tag: "Maintenance" },
-    { id: 6, src: pipeinst19, title: "Sewer Line Work", tag: "Maintenance" },
-    { id: 6, src: pipeinst20, title: "Sewer Line Work", tag: "Maintenance" },
-    { id: 6, src: pipeinst21, title: "Sewer Line Work", tag: "Maintenance" },
-    { id: 6, src: pipeinst22, title: "Sewer Line Work", tag: "Maintenance" },
-    { id: 6, src: pipeinst23, title: "Sewer Line Work", tag: "Maintenance" },
-    // { id: 6, src: pipeinst24, title: "Sewer Line Work", tag: "Maintenance" },
+    { id: 3, src: pipeinst, title: "Drainage", tag: "Maintenance" },
+    { id: 4, src: pipeinst1, title: "piping", tag: "Installation" },
+    { id: 5, src: pipeinst2, title: "waste disposing", tag: "Inspection" },
+    { id: 6, src: pipeinst3, title: "drainage", tag: "Maintenance" },
+    { id: 6, src: pipeinst4, title: "toilet piping", tag: "Maintenance" },
+    { id: 6, src: pipeinst5, title: "drainage", tag: "Maintenance" },
+    { id: 6, src: pipeinst6, title: "drrainage", tag: "Maintenance" },
+    { id: 6, src: pipeinst7, title: "waste disposing", tag: "Maintenance" },
+    { id: 6, src: pipeinst8, title: "pipe layouts", tag: "Maintenance" },
+    { id: 6, src: pipeinst9, title: "drainage laytouts", tag: "Maintenance" },
+    { id: 6, src: pipeinst10, title: "tank oulets", tag: "Maintenance" },
+    { id: 6, src: pipeinst11, title: "tank instalation", tag: "Maintenance" },
+    { id: 6, src: pipeinst12, title: "tank inlets", tag: "Maintenance" },
+    { id: 6, src: pipeinst13, title: "pipework", tag: "Maintenance" },
+    { id: 6, src: pipeinst14, title: "Tow pipe sytem", tag: "Maintenance" },
+    { id: 6, src: pipeinst15, title: "pump instaling", tag: "Maintenance" },
+    { id: 6, src: pipeinst16, title: "rainwater", tag: "Maintenance" },
+    { id: 6, src: pipeinst17, title: "drainage", tag: "Maintenance" },
+    { id: 6, src: pipeinst18, title: "rainwater", tag: "Maintenance" },
+    { id: 6, src: pipeinst19, title: "outside tap", tag: "Maintenance" },
+    { id: 6, src: pipeinst20, title: "pipework", tag: "Maintenance" },
+    { id: 6, src: pipeinst21, title: "pipework", tag: "Maintenance" },
+    { id: 6, src: pipeinst22, title: "pubic tap", tag: "Maintenance" },
+    { id: 6, src: pipeinst23, title: "rainwater", tag: "Maintenance" },
+    { id: 6, src: inst1, title: "tank instal", tag: "Maintenance" },
+    { id: 6, src: inst2, title: "tank stand", tag: "Maintenance" },
+    { id: 6, src: inst3, title: "tank instal", tag: "Maintenance" },
+
+
 
 
 

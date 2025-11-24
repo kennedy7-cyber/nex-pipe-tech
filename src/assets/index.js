@@ -27,6 +27,11 @@ import pipeinst20 from './pic7.jpeg'
 import pipeinst21 from './pic6.jpeg'
 import pipeinst22 from './pic5.jpeg'
 import pipeinst23 from './rain water.jpeg'
+import inst1 from'./tank1.jpeg'
+import inst2 from './tank2.jpeg'
+import inst3 from './tank3.jpeg'
+
+
 
 
 
@@ -62,7 +67,10 @@ export {
     pipeinst20,
     pipeinst21,
     pipeinst22,
-    pipeinst23
+    pipeinst23,
+    inst1,
+    inst2,
+    inst3
 
 
 
