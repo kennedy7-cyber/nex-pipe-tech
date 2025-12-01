@@ -32,6 +32,8 @@ import inst2 from './tank2.jpeg'
 import inst3 from './tank3.jpeg'
 import inst50 from './irrigate1.jpeg'
 import install1 from './barthroom1.jpeg'
+import install2 from './handwash.jpeg'
+import install3 from './toilet1.jpeg'
 
 
 
@@ -75,6 +77,8 @@ export {
     inst3,
     inst50,
     install1,
+    install2,
+    install3,
 
 
 

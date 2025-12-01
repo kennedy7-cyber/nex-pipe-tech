@@ -32,7 +32,7 @@ const Navbar = () => (
               }
               to="/"
             >
-              Homepage
+              LANDING PAGE
             </NavLink>
           </li>
           <li className="nav-item">
@@ -42,7 +42,7 @@ const Navbar = () => (
               }
               to="/services"
             >
-              Services
+              WHY CHOOSE US
             </NavLink>
           </li>
           <li className="nav-item">
@@ -52,7 +52,7 @@ const Navbar = () => (
               }
               to="/about-us"
             >
-              About Us
+              HISTORI
             </NavLink>
           </li>
           <li className="nav-item">
@@ -62,7 +62,7 @@ const Navbar = () => (
               }
               to="/blog-in"
             >
-              Blogs
+              CONTENT HUB
             </NavLink>
           </li>
           <li className="nav-item">
@@ -72,7 +72,7 @@ const Navbar = () => (
               }
               to="/gallery-in"
             >
-              Gallery
+              SHOWCASE
             </NavLink>
           </li>
           <li className="nav-item">
@@ -82,7 +82,7 @@ const Navbar = () => (
               }
               to="/FAQ-IN"
             >
-              FAQ
+              NEED HELP?
             </NavLink>
           </li>
 
@@ -94,7 +94,7 @@ const Navbar = () => (
               className="nav-link btn btn-warning fw-bold text-dark px-3"
               to="/contact"
             >
-              Contact
+              REACH US
             </NavLink>
           </li>
         </ul>
