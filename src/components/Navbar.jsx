@@ -95,7 +95,7 @@ const Navbar = () => (
               to="/contact"
             >
               REACH US
-            </NavLink>
+              12            </NavLink>
           </li>
         </ul>
       </div>
