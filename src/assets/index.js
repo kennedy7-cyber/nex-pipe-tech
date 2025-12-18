@@ -36,7 +36,9 @@ import install2 from './handwash.jpeg'
 import install3 from './toilet1.jpeg'
 import install4 from './handwh.jpeg'
 import install5 from './toilet 01.jpeg'
-import install6 from './toilet02.jpeg'
+import install6 from './pointing01.jpeg'
+import install7 from './toilet ons.jpeg'
+
 
 
 
@@ -86,7 +88,9 @@ export {
     install3,
     install4,
     install5,
-    install6
+    install6,
+    install7,
+
 
 
 
