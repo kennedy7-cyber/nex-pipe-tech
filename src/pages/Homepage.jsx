@@ -2,7 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import { gatersimg, install1, install4, pipework2, tankinstal1 } from "../assets";
+import { gatersimg, install1, install4, install8, pipework2, tankinstal1 } from "../assets";
 const services = [
   {
     id: "leak-repair",
@@ -14,7 +14,7 @@ const services = [
   {
     id: "installation",
     title: "New Installations",
-    img: install1,
+    img: install8,
     desc: "Professional installation of piping, water heaters, fixtures, and smart water systems—built to code.",
   },
   {

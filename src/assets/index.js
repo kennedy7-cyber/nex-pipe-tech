@@ -38,6 +38,14 @@ import install4 from './handwh.jpeg'
 import install5 from './toilet 01.jpeg'
 import install6 from './pointing01.jpeg'
 import install7 from './toilet ons.jpeg'
+import install8 from './wchn2.jpeg'
+import install9 from './mchn1.jpeg'
+import install10 from './ktchn1.jpeg'
+import install11 from './t1.jpeg'
+import install12 from './t2.jpeg'
+
+
+
 
 
 
@@ -90,6 +98,12 @@ export {
     install5,
     install6,
     install7,
+    install8,
+    install9,
+    install10,
+    install11,
+    install12
+
 
 
 
