@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Card, Button, Modal } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { install114, install12, install13 } from "../assets";
 
 
 
@@ -28,7 +29,7 @@ const Blogs = () => {
     {
       id: 2,
       title: "Eco-Friendly Plumbing Solutions",
-      image: "https://media.istockphoto.com/id/2196079097/photo/close-up-of-a-dripping-chrome-faucet-against-a-blurred-urban-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=0yAfuJghwnNOwrJf6qYa9OaLNyyS97yeLOdPqt5AyWo=",
+      image: install114,
       excerpt: "Green plumbing is more than a trend – it’s a responsibility...",
       content:
         "Eco-friendly plumbing involves water-saving fixtures, greywater recycling, and energy-efficient heating systems. Nex Pipe Tech promotes sustainable installations that not only save resources but also cut costs for homeowners and businesses."
@@ -36,7 +37,7 @@ const Blogs = () => {
     {
       id: 3,
       title: "Preventive Maintenance Tips",
-      image: "https://images.unsplash.com/photo-1580377968131-bac075a9a3d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fFByZXZlbnRpdmUlMjBNYWludGVuYW5jZSUyMFRpcHMlMjBTaW1wbGUlMjBzdGVwcyUyMHRvJTIwZXh0ZW5kJTIwdGhlJTIwbGlmZSUyMG9mJTIweW91ciUyMHBsdW1iaW5nJTIwc3lzdGVtcy4uLnxlbnwwfHwwfHx8MA%3D%3D",
+      image: install13,
       excerpt: "Simple steps to extend the life of your plumbing systems...",
       content:
         "Regular inspections, timely repairs, and professional maintenance help prevent leaks and costly damage. At Nex Pipe Tech, we encourage clients to schedule preventive checkups for long-term peace of mind."

@@ -43,6 +43,13 @@ import install9 from './mchn1.jpeg'
 import install10 from './ktchn1.jpeg'
 import install11 from './t1.jpeg'
 import install12 from './t2.jpeg'
+import install13 from './t3.jpeg'
+import install114 from './irrigate3.jpeg'
+import install115 from './uncloging2.jpeg'
+
+
+
+
 
 
 
@@ -102,7 +109,10 @@ export {
     install9,
     install10,
     install11,
-    install12
+    install12,
+    install13,
+    install114,
+    install115
 
 
 
