@@ -1,6 +1,7 @@
 
 import React, { useState } from "react";
 import { Modal, Button, Card, Row, Col, Container } from "react-bootstrap";
+import { install115, install13 } from "../assets";
 
 // Example services data
 const servicesData = [
@@ -21,7 +22,7 @@ const servicesData = [
   {
     id: 3,
     title: "Drain Cleaning",
-    img: "https://media.istockphoto.com/id/1441363070/photo/plumber-unclogging-blocked-toilet-with-hydro-jetting-at-home-bathroom-sewer-cleaning-service.webp?a=1&b=1&s=612x612&w=0&k=20&c=3zdSMitG7U-v_A8A1o8pv7gjO3cp7WVVrUl_EAYAAoQ=",
+    img: "https://media.istockphoto.com/id/2183104950/photo/unclogging-a-large-drain.webp?a=1&b=1&s=612x612&w=0&k=20&c=cqp-GdiSVvb4Nk5RKwUlmbvC5nnsSL038E9Jt2-lUgY=",
     short: "Unclogging and cleaning drains.",
     long: "Blocked drains can cause unpleasant odors and flooding. We provide effective solutions to restore proper water flow."
   },
@@ -70,7 +71,7 @@ const servicesData = [
   {
     id: 10,
     title: "Toilet Installation & Repair",
-    img: "https://images.unsplash.com/photo-1656646523723-b660b32dbaaf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fFRvaWxldCUyMEluc3RhbGxhdGlvbiUyMCUyNiUyMFJlcGFpciUyMFJlbGlhYmxlJTIwdG9pbGV0JTIwcGx1bWJpbmclMjBzZXJ2aWNlcy58ZW58MHx8MHx8fDA%3D",
+    img: install13,
     short: "Reliable toilet plumbing services.",
     long: "From unclogging to new installations, we ensure your toilet works efficiently and without leaks."
   },
